@@ -6,7 +6,7 @@
     padding: 0;
   }
 
-   .menu, 
+   /* .menu, 
    .menu .butn .fa, 
    .menu2, 
    .menu2 .butn .fa {
@@ -14,13 +14,25 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-  }
+transform-origin: center center; 
+  } */
+  
+  .menu .butn .fa, 
+  .menu2 .butn .fa {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+transform-origin: center center;
+ }
   
 .menu,
 .menu2 {
-
+position: relative;
     width: 12em;
     height: 8em;
+    margin: 10px 10% 10px 10%;
+    
   }
   
 .menu .butn, 
@@ -39,15 +51,16 @@
     transform: translateX(0);
     transition-delay: 500ms;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    transform-origin: center center;
   }
 
 .menu .butn .fa, 
 .menu2 .butn .fa  {
-    font-size: 20px;
+    font-size: 28px;
     color: rgba(0, 0, 0, 0.8);
     transition: color 0.3s, visibility 0.3s;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1;
   }
   
   .menu .butn:hover svg.paypal.fa .paypal-icon, .menu2 .butn:hover svg.paypal.fa .paypal-icon {
