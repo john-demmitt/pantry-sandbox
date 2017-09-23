@@ -1,0 +1,225 @@
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+   .menu, 
+   .menu .butn .fa, 
+   .menu2, 
+   .menu2 .butn .fa {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+.menu,
+.menu2 {
+    width: 12em;
+    height: 8em;
+  }
+  
+.menu .butn, 
+.menu2 .butn  {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #00b7a4cc;
+    opacity: 0;
+    z-index: -10;
+    cursor: pointer;
+    transition: opacity 1s, z-index 0.3s, transform 1s;
+    transform: translateX(0);
+    transition-delay: 500ms;
+    
+  }
+
+.menu .butn .fa, 
+.menu2 .butn .fa  {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.8);
+    transition: color 0.3s, visibility 0.3s;
+    text-align: center;
+    line-height: 1.1;
+  }
+  
+  .menu .butn:hover svg.paypal.fa .paypal-icon, .menu2 .butn:hover svg.paypal.fa .paypal-icon {
+    visibility:hidden;
+  }
+
+.menu .butn:hover .fa, 
+.menu2 .butn:hover .fa  {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .menu .butn:hover svg.paypal.fa .paypal-icon, 
+  .menu2 .butn:hover svg.paypal.fa .paypal-icon {
+    visibility:hidden;
+  }
+
+.menu .butn.trigger, 
+.menu2 .butn.trigger2 {
+    opacity: 1;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.3s;
+    transition-delay: 700ms; 
+  }
+  
+  .menu:hover .butn.trigger, 
+  .menu2:hover .butn.trigger2 {
+            transform: scale(1.2);
+            transition-delay: 0s;          
+  }
+  
+  .menu .rotater, 
+  .menu2 .rotater {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%;
+    transition-delay: 700ms;
+  }
+  
+  .menu:hover .butn-icon, 
+  .menu2:hover .butn-icon  {
+    opacity: 1;
+    z-index: 50;
+    transition-delay: 0s;    
+  }
+  
+  svg.paypal {
+    height:75%;
+    width:75%;
+  }
+
+/*:nth-child(1) Hours&Location*/
+  .rotater:nth-child(1) {
+            transform: rotate(-10deg);
+            transition-delay: 700ms;
+        }
+  
+  .menu:hover .rotater:nth-child(1) .butn-icon,
+  .menu2:hover .rotater:nth-child(1) .butn-icon  {
+            transform: translateY(-18em) rotate(10deg);
+            transition-delay: 0s;   
+            
+  }
+
+  /*:nth-child(2) Donate your time*/
+  .rotater:nth-child(2) {
+            transform: rotate(23.75deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(2) .butn-icon,
+  .menu2:hover .rotater:nth-child(2) .butn-icon  {
+            transform: translateY(-16em) rotate(-23.75deg);
+            transition-delay: 0s;                
+            
+  }
+
+  /*:nth-child(3) n/a*/
+  .rotater:nth-child(3) {
+            transform: rotate(24.75deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(3) .butn-icon,
+  .menu2:hover .rotater:nth-child(3) .butn-icon  {
+            transform: translateY(-16em) rotate(-24.75deg);
+            transition-delay: 0s;
+  }
+
+  /*:nth-child(4) paypal*/
+  .rotater:nth-child(4) {
+            transform: rotate(90deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(4) .butn-icon,
+  .menu2:hover .rotater:nth-child(4) .butn-icon  {
+            transform: translateY(-16em) rotate(-90deg);
+            transition-delay: 0s;
+            
+  }
+
+/*:nth-child(5) n/a*/
+  .rotater:nth-child(5) {
+    transform: rotate(168.75deg);
+    transition-delay: 700ms;
+}
+
+.menu:hover .rotater:nth-child(5) .butn-icon,
+.menu2:hover .rotater:nth-child(5) .butn-icon  {
+    transform: translateY(-21em) rotate(-168.75deg);
+    transition-delay: 0s;
+    
+}
+
+/*:nth-child(6) donate itemsn*/
+  .rotater:nth-child(6) {
+            transform: rotate(160deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(6) .butn-icon,
+  .menu2:hover .rotater:nth-child(6) .butn-icon  {
+            transform: translateY(-16em) rotate(-160deg);
+            transition-delay: 0s;
+            
+  }
+
+  /*:nth-child(7) homeless programs*/
+  .rotater:nth-child(7) {
+            transform: rotate(190deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(7) .butn-icon,
+  .menu2:hover .rotater:nth-child(7) .butn-icon  {
+            transform: translateY(-16em) rotate(-190deg);
+            transition-delay: 0s;
+            
+  }
+  
+  /*:nth-child(8) events*/
+.rotater:nth-child(8) {
+            transform: rotate(245deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(8) .butn-icon,
+  .menu2:hover .rotater:nth-child(8) .butn-icon  {
+            transform: translateY(-16em) rotate(-245deg);
+            transition-delay: 0s;
+            
+  }
+  
+ /*:nth-child(9) eligibility*/
+ .rotater:nth-child(9) {
+            transform: rotate(295deg);
+            transition-delay: 700ms;
+  }
+  
+  .menu:hover .rotater:nth-child(9) .butn-icon,
+  .menu2:hover .rotater:nth-child(9) .butn-icon  {
+            transform: translateY(-16em) rotate(-295deg);
+            transition-delay: 0s;
+            
+  }
+  
+  .menu .butn .fa.la,
+  .menu2 .butn .fa.la {
+    font-size:2em;
+    text-align:center;
+    line-height: 1.1;
+  }
