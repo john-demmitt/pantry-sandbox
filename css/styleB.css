@@ -9,11 +9,7 @@ body {
 }
 
 .button-mainB {
-<<<<<<< HEAD
-	width: 18em;
-=======
 	width: 16em;
->>>>>>> fedca4bc7365c5b0fa4cb117a5c10bffc08f4bae
 	height: 5em;
 	background-color: #33b7d2;
 	background-image: linear-gradient(45deg, #99dbe8 0%, #33b7d2 20%, #33b7d2 92%, #227a8c 100%);
@@ -39,12 +35,8 @@ body {
 transition: box-shadow 0.3s,
 				border-top 0.3s,
 				border-right 0.3s;
-<<<<<<< HEAD
 				text-align: center;
 				
-=======
-				text-align: center
->>>>>>> fedca4bc7365c5b0fa4cb117a5c10bffc08f4bae
 }
 
 .button-mainB:hover, .button-mainB:focus {
@@ -57,18 +49,10 @@ transition: box-shadow 0.3s,
 				-.1em -.1em 2em #227a8c;
 	border-top: 3px solid #227a8c;
 	border-right: 3px solid #227a8c;
-<<<<<<< HEAD
-	
-}
-
-.button-insideB {
-	width: 17em;
-=======
 }
 
 .button-insideB {
 	width: 15em;
->>>>>>> fedca4bc7365c5b0fa4cb117a5c10bffc08f4bae
 	height: 4em;
 	margin: .5em auto;
 	border-radius: .8em;
