@@ -1,6 +1,10 @@
 body {
 	margin: 0;
+<<<<<<< HEAD
 	background-color: #c3c3c3;
+=======
+	background-color: #404040;
+>>>>>>> fedca4bc7365c5b0fa4cb117a5c10bffc08f4bae
 }
 
 #container {
@@ -44,14 +48,22 @@ transition: box-shadow 0.3s,
 				-.1em .1em 0 #003d36,
 				-.2em .2em 0 #003d36,
 				-.3em .3em 0 #003d36,
+<<<<<<< HEAD
 				inset -.1em -.1em 2em #cdf1ed,
+=======
+				inset -.1em -.1em 2em #FFF,
+>>>>>>> fedca4bc7365c5b0fa4cb117a5c10bffc08f4bae
 				-.1em -.1em 2em #007a6c;
 	border-top: 3px solid #007a6c;
 	border-right: 3px solid #007a6c;
 }
 
 .button-insideG {
+<<<<<<< HEAD
 	width: 17em;
+=======
+	width: 16em;
+>>>>>>> fedca4bc7365c5b0fa4cb117a5c10bffc08f4bae
 	height: 4em;
 	margin: .5em auto;
 	border-radius: .8em;
