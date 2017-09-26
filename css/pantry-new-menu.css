@@ -84,7 +84,7 @@ width: 100%;
 
 
 .lsd {  
-  grid-row: 5/18;
+  grid-row: 4/19;
   grid-column: 1/5;
 display:flex;
 height: 100%;
@@ -115,20 +115,25 @@ pointer-events: auto;
     margin-left: 20px;
     color:white;
     transition: all 0.3s;
-    background-color: rgba(51,183,210,0.7);
+    background-color: rgba(0, 183, 164,0.7);
     text-shadow: 1px 1px 0px rgba(0,0,0, 0.8), 2px 2px 0px rgba(0,0,0, 0.8);
     font-size: 18px;
     line-height: 1;
-    text-align: center
+    text-align: center;
+    border-radius: 5px;
   }
   
   .card:hover {
-    background-color: rgba(51, 183, 210, 1);
-    transform: scale(1.1);
+    background-color: rgba(0, 183, 164, 1);
+    /* transform: scale(1.1); */
     box-shadow: 8px 8px 5px rgba(0,0,0, 0.8);  
     
   }
   
+.card p {
+  margin:5px;
+}
+
   .rsd {
     grid-row: 5/18;
     grid-column: 16/21;
@@ -340,4 +345,9 @@ justify-content: space-around;
   .caption {
     background-color: rgba(0,0,0,0.4);
     font-size: 1.5em;
+  }
+
+  .fa {
+    align-self: center;
+    justify-self: center;
   }
