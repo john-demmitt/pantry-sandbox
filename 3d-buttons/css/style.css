@@ -1,12 +1,12 @@
 body {
 	margin: 0;
-	background-color: #404040;
+	/* background-color: #404040; */
 }
 
-#container {
+/* #container {
 	width: 35em;
 	margin: 3em auto;
-}
+} */
 
 .button-main {
 	width: 18em;
