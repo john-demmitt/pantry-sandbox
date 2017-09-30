@@ -1,0 +1,153 @@
+.shade4b {
+    filter:url("#filter884");
+    opacity:0.234;
+    fill:#000000;    
+}
+
+.shade3b {
+    filter:url("#filter888");
+    opacity:0.254;
+    fill:#000000;        
+}
+
+.shadeC {
+    filter:url("#filter887");
+    opacity:0.214;
+    fill:#000000;        
+}
+
+.shade2b {
+    filter:url("#filter899");
+    opacity:0.2342;
+    fill:#000000;    
+}
+
+.shade1b {
+    filter:url("#filter891");
+    opacity:0.2342;
+    fill:#000000;        
+}
+
+.shadeA {
+    filter:url("#filter895");
+    opacity:0.2342;
+    fill:#000000;        
+}
+
+.t-l-edge {
+    fill:#7fdbd1;
+}
+
+.b-r-edge {
+    fill:#007a6c;
+}
+
+.rim {
+    fill:url("#linearGradient2097");
+}
+
+.b-r-inset {
+    fill: #7fdbd1;
+}
+
+.t-l-inset {
+    fill:#007a6c;
+}
+
+.inner {
+    fill:url("#linearGradient2213");
+}
+
+.txt {
+    font-family:'Franklin Gothic Heavy';    letter-spacing:0px;
+    word-spacing:0px;
+}
+
+.txt-shad-b {
+    fill:#007a6c;
+}
+
+.txt-shad-a {
+fill:#000000;
+}
+
+.text {
+    fill:#ffffff;
+}
+
+
+
+#services-butn:hover .shade4b {
+    fill:#15bdab;
+    filter:url(#filter1919);
+    opacity:.164;
+}
+
+#services-butn:hover .shade3b {
+    fill:#eafdfb;
+    filter:url(#filter3426);
+    opacity:0.6291
+}
+
+#services-butn:hover .shadeC {
+    filter:url("#filter887");
+    opacity:0.214;
+}
+
+#services-butn:hover .shade2b {
+    fill:#000000;
+    filter:url("#filter891-8");
+    opacity:0.2342;
+}
+
+#services-butn:hover .shade1b {
+    fill:#000000;
+    filter:url("#filter895-7");
+    opacity:0.2342;
+}
+
+#services-butn:hover .shadeA {
+    filter:url("#filter895");
+    opacity:.2342;
+}
+
+#services-butn:hover .t-l-edge {
+    fill:#007a6c;
+
+}
+
+#services-butn:hover .b-r-edge {
+    fill:#007a6c;
+}
+
+#services-butn:hover .rim {
+    fill:#7fdbd1;
+}
+
+#services-butn:hover .b-r-inset {
+    fill: #007a6c;
+}
+
+#services-butn:hover .t-l-inset {
+    fill:#007a6c;
+}
+
+#services-butn:hover .inner {
+    fill:#17c8b8;}
+
+#services-butn:hover .txt {
+    font-family:'Franklin Gothic Heavy';    letter-spacing:0px;
+    word-spacing:0px;
+}
+
+#services-butn:hover .txt-shad-b {
+    fill:#005148;
+}
+
+#services-butn:hover .txt-shad-a {
+fill:#000000;
+}
+
+#services-butn:hover .text {
+    fill:url(#linearGradient2685);
+}
