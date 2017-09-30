@@ -1,40 +1,48 @@
 body {
     font-family:'Franklin Gothic Heavy'; 
-    
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
 }
 
 .shade4b {
-    filter:url("green-transform-test1.htm#filter884");
+    -webkit-filter:url('#filter884');
+            filter:url('#filter884');
     opacity:0.234;
     fill:#000000;    
 }
 
 .shade3b {
-    filter:url("green-transform-test1.htm#filter888");
+    -webkit-filter:url("green-transform-test1.htm#filter888");
+            filter:url("green-transform-test1.htm#filter888");
     opacity:0.254;
     fill:#000000;        
 }
 
 .shadeC {
-    filter:url("green-transform-test1.htm#filter887");
+    -webkit-filter:url("green-transform-test1.htm#filter887");
+            filter:url("green-transform-test1.htm#filter887");
     opacity:0.214;
     fill:#000000;        
 }
 
 .shade2b {
-    filter:url("green-transform-test1.htm#filter899");
+    -webkit-filter:url("green-transform-test1.htm#filter899");
+            filter:url("green-transform-test1.htm#filter899");
     opacity:0.2342;
     fill:#000000;    
 }
 
 .shade1b {
-    filter:url("green-transform-test1.htm#filter891");
+    -webkit-filter:url("green-transform-test1.htm#filter891");
+            filter:url("green-transform-test1.htm#filter891");
     opacity:0.2342;
     fill:#000000;        
 }
 
 .shadeA {
-    filter:url("green-transform-test1.htm#filter895");
+    -webkit-filter:url("green-transform-test1.htm#filter895");
+            filter:url("green-transform-test1.htm#filter895");
     opacity:0.2342;
     fill:#000000;        
 }
@@ -77,43 +85,72 @@ body {
 fill:#000000;
 }
 
-.text {
+.txt-fore {
     fill:#ffffff;
 }
 
+.adiv {
+    width:100%;
+    height:100%;
+}
 
+#services-butn:hover {
+    -webkit-transform:scaleX(o.5), scaleY(o.8);
+            transform:scaleX(0.8);
+            transform: scaleY(0.8);
+
+
+}
+
+#services-butn {
+    height:100%;
+    width:100%;
+    transform: scaleX(1);
+    transform: scaleY(1);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: inline-block;
+    transform-origin: center center;
+
+}
 
 #services-butn:hover .shade4b {
     fill:#15bdab;
-    filter:url(#filter1919);
+    -webkit-filter:url(#filter1919);
+            filter:url(#filter1919);
     opacity:.164;
 }
 
 #services-butn:hover .shade3b {
     fill:#eafdfb;
-    filter:url(#filter3426);
+    -webkit-filter:url(#filter3426);
+            filter:url(#filter3426);
     opacity:0.6291
 }
 
 #services-butn:hover .shadeC {
-    filter:url("green-transform-test1.htm#filter887");
+    -webkit-filter:url("green-transform-test1.htm#filter887");
+            filter:url("green-transform-test1.htm#filter887");
     opacity:0.214;
 }
 
 #services-butn:hover .shade2b {
     fill:#000000;
-    filter:url("green-transform-test1.htm#filter891-8");
+    -webkit-filter:url("green-transform-test1.htm#filter891-8");
+            filter:url("green-transform-test1.htm#filter891-8");
     opacity:0.2342;
 }
 
 #services-butn:hover .shade1b {
     fill:#000000;
-    filter:url("green-transform-test1.htm#filter895-7");
+    -webkit-filter:url("green-transform-test1.htm#filter895-7");
+            filter:url("green-transform-test1.htm#filter895-7");
     opacity:0.2342;
 }
 
 #services-butn:hover .shadeA {
-    filter:url("green-transform-test1.htm#filter895");
+    -webkit-filter:url("green-transform-test1.htm#filter895");
+            filter:url("green-transform-test1.htm#filter895");
     opacity:.2342;
 }
 
@@ -142,18 +179,20 @@ fill:#000000;
     fill:#17c8b8;}
 
 #services-butn:hover .txt {
-    font-family:'Franklin Gothic Heavy';    letter-spacing:0px;
+    font-family:'Franklin Gothic Heavy';    
+    letter-spacing:0px;
     word-spacing:0px;
 }
 
 #services-butn:hover .txt-shad-b {
-    fill:#005148;
+visibility:hidden;
 }
 
 #services-butn:hover .txt-shad-a {
-fill:#000000;
+    visibility:hidden;
 }
 
-#services-butn:hover .text {
-    fill:url(#linearGradient2685);
+
+#services-butn:hover .txt-fore {
+    fill:url("#linearGradient2685");
 }
