@@ -1,35 +1,40 @@
+body {
+    font-family:'Franklin Gothic Heavy'; 
+    
+}
+
 .shade4b {
-    filter:url("#filter884");
+    filter:url("green-transform-test1.htm#filter884");
     opacity:0.234;
     fill:#000000;    
 }
 
 .shade3b {
-    filter:url("#filter888");
+    filter:url("green-transform-test1.htm#filter888");
     opacity:0.254;
     fill:#000000;        
 }
 
 .shadeC {
-    filter:url("#filter887");
+    filter:url("green-transform-test1.htm#filter887");
     opacity:0.214;
     fill:#000000;        
 }
 
 .shade2b {
-    filter:url("#filter899");
+    filter:url("green-transform-test1.htm#filter899");
     opacity:0.2342;
     fill:#000000;    
 }
 
 .shade1b {
-    filter:url("#filter891");
+    filter:url("green-transform-test1.htm#filter891");
     opacity:0.2342;
     fill:#000000;        
 }
 
 .shadeA {
-    filter:url("#filter895");
+    filter:url("green-transform-test1.htm#filter895");
     opacity:0.2342;
     fill:#000000;        
 }
@@ -43,7 +48,7 @@
 }
 
 .rim {
-    fill:url("#linearGradient2097");
+    fill:url("green-transform-test1.htm#linearGradient2097");
 }
 
 .b-r-inset {
@@ -55,11 +60,12 @@
 }
 
 .inner {
-    fill:url("#linearGradient2213");
+    fill:url("green-transform-test1.htm#linearGradient2213");
 }
 
 .txt {
-    font-family:'Franklin Gothic Heavy';    letter-spacing:0px;
+    font-family:'Franklin Gothic Heavy'; 
+       letter-spacing:0px;
     word-spacing:0px;
 }
 
@@ -90,24 +96,24 @@ fill:#000000;
 }
 
 #services-butn:hover .shadeC {
-    filter:url("#filter887");
+    filter:url("green-transform-test1.htm#filter887");
     opacity:0.214;
 }
 
 #services-butn:hover .shade2b {
     fill:#000000;
-    filter:url("#filter891-8");
+    filter:url("green-transform-test1.htm#filter891-8");
     opacity:0.2342;
 }
 
 #services-butn:hover .shade1b {
     fill:#000000;
-    filter:url("#filter895-7");
+    filter:url("green-transform-test1.htm#filter895-7");
     opacity:0.2342;
 }
 
 #services-butn:hover .shadeA {
-    filter:url("#filter895");
+    filter:url("green-transform-test1.htm#filter895");
     opacity:.2342;
 }
 
