@@ -119,40 +119,9 @@ filter:url("#filter868");
       
 }
 
-.services-menu {
-  position: relative;
-  width: 100%;
-}
-
-
-/* .s-menu-item {
-    position: relative;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    background: rgba(0, 183, 164, 0.8);
-    opacity: 0;
-    z-index: -10;
-    cursor: pointer;
-    transition: opacity 1s, z-index 0.3s, transform 1s;
-    transform: translateX(0);
-    transition-delay: 500ms;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-    transform-origin: center center;
-  } */
-
-.services-menu .s-menu-item{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    height: 100%;
-
-    transform-origin: 50% 50%;
-    transition-delay: 700ms;
-    z-index: -10;
-    font-size: 2rem;
-    text-align: center;
+.adiv {
+    width:25%;
+    height:25%;
 }
 
 #services-butn:hover {
@@ -164,6 +133,7 @@ filter:url("#filter868");
 }
 
 #services-butn {
+    height:100%;
     width:100%;
     transform: scaleX(1) scaleY(1);
     -webkit-transition: all 0.5s ease-in-out;
@@ -285,69 +255,3 @@ transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     
 }
-
-.services-menu .s-menu-item:nth-child(2) {
-background-color:yellow;
-opacity:0;
-z-index:-10;
-    transition: all 0.5s ease-in-out;
-    transform:scale(.2);
-}
-
-
-.services-menu:hover .s-menu-item:nth-child(2) {
-transform:translateY(-150%) scale(1.1);
-opacity:1;
-z-index:100;
-background-color:yellow;
-
-}
-
-.services-menu .s-menu-item:nth-child(3) {
-    background-color:green;
-    opacity:0;
-    z-index:-10;
-        transition: all 0.5s ease-in-out;
-        transform:scale(.2);
-    }
-    
-.services-menu:hover .s-menu-item:nth-child(3) {
-    opacity:1;
-    z-index:100;
-    
-transform:translate(-150%, -150%) scale(1.1);
-}
-
-.services-menu .s-menu-item:nth-child(4) {
-    background-color:orange;
-    opacity:0;
-    z-index:-10;
-        transition: all 0.5s ease-in-out;
-        transform:scale(.2);
-    }
-
-.services-menu:hover .s-menu-item:nth-child(4) {
-    opacity:1;
-    z-index:100;
-
-transform:translate(-150%, 150%) scale(1.1);
-}
-
-.services-menu .s-menu-item:nth-child(5) {
-    background-color:pink;
-    opacity:0;
-    z-index:-10;
-        transition: all 0.5s ease-in-out;
-    transform:scale(.2);
-    }
-
-
-.services-menu:hover .s-menu-item:nth-child(5) {
-    opacity:1;
-    z-index:100;
-
-
-transform:translateY(150%) scale(1);
-
-}
-
