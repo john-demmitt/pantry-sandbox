@@ -95,9 +95,6 @@ body {
 }
 
 .txt {
-    font-family:'Franklin Gothic Heavy'; 
-       letter-spacing:0px;
-    word-spacing:0px;
     transition: all 0.5s ease-in-out;
     
 }
@@ -105,19 +102,19 @@ body {
 .txt-shad-b {
     fill:#007a6c;
     transition: all 0.5s ease-in-out;
-    
+    filter:url(#filter860)
 }
 
 .txt-shad-a {
 fill:#000000;
 transition: all 0.5s ease-in-out;
-
+filter:url("#filter868");
 }
 
-.txt-fore {
+.txt-services {
     fill:#ffffff;
     transition: all 0.5s ease-in-out;
-    
+      
 }
 
 .adiv {
@@ -129,7 +126,8 @@ transition: all 0.5s ease-in-out;
     -webkit-transform:scaleX(o.9), scaleY(o.9);
             transform:scaleX(0.95) scaleY(0.95);
 
-
+            transition: all 0.5s ease-in-out;
+            
 }
 
 #services-butn {
@@ -148,79 +146,110 @@ transition: all 0.5s ease-in-out;
     -webkit-filter:url(#filter1919);
             filter:url(#filter1919);
     opacity:.164;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .shade3b {
     fill:#eafdfb;
     -webkit-filter:url(#filter3426);
             filter:url(#filter3426);
-    opacity:0.6291
+    opacity:0.6291;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .shadeC {
-    -webkit-filter:url("green-transform-test1.htm#filter887");
-            filter:url("green-transform-test1.htm#filter887");
+    -webkit-filter:url("#filter887");
+            filter:url("#filter887");
     opacity:0.214;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .shade2b {
     fill:#000000;
-    -webkit-filter:url("green-transform-test1.htm#filter891-8");
-            filter:url("green-transform-test1.htm#filter891-8");
+    -webkit-filter:url("#filter891-8");
+            filter:url("#filter891-8");
     opacity:0.2342;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .shade1b {
     fill:#000000;
-    -webkit-filter:url("green-transform-test1.htm#filter895-7");
-            filter:url("green-transform-test1.htm#filter895-7");
+    -webkit-filter:url("#filter895-7");
+            filter:url("#filter895-7");
     opacity:0.2342;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .shadeA {
-    -webkit-filter:url("green-transform-test1.htm#filter895");
-            filter:url("green-transform-test1.htm#filter895");
+    -webkit-filter:url("#filter895");
+            filter:url("#filter895");
     opacity:.2342;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .t-l-edge {
     fill:#007a6c;
-
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .b-r-edge {
     fill:#007a6c;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .rim {
     fill:#7fdbd1;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .b-r-inset {
     fill: #007a6c;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .t-l-inset {
     fill:#007a6c;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .inner {
-    fill:#17c8b8;}
+    fill:#17c8b8;
+    transition: all 0.5s ease-in-out;
+}
 
 #services-butn:hover .txt {
-    font-family:'Franklin Gothic Heavy';    
+    /* font-family:'Franklin Gothic Heavy';    
     letter-spacing:0px;
-    word-spacing:0px;
+    word-spacing:0px; */
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .txt-shad-b {
 visibility:hidden;
+transition: all 0.5s ease-in-out;
+
 }
 
 #services-butn:hover .txt-shad-a {
     /* visibility:hidden; */
+    transition: all 0.5s ease-in-out;
+    
 }
 
 #services-butn:hover .txt-fore {
     fill:url("#linearGradient2685");
+    transition: all 0.5s ease-in-out;
+    
 }
