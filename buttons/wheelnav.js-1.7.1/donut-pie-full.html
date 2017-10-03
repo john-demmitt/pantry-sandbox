@@ -96,26 +96,23 @@
         }
 
         /* Insert generated CSS code from here -> http://pmg.softwaretailoring.net */
-
-
         #piemenu > svg { width: 100%; height: 100%; }
-#piemenu { height: 600px; width: 600px; margin:auto; }
+#piemenu { height: 400px; width: 400px; margin:auto; }
 @media (max-width: 400px) { #piemenu { height: 300px; width: 300px; } }
 
 [class|=wheelnav-piemenu-slice-basic] { fill: #00b7a4; stroke: none; }
-[class|=wheelnav-piemenu-slice-selected] { fill: #33b7d2; stroke: none; }
-[class|=wheelnav-piemenu-slice-hover] { fill: #33b7d2;  stroke: none; fill-opacity: 0.77; cursor: pointer; }
+[class|=wheelnav-piemenu-slice-selected] { fill: #00b7a4; stroke: none; }
+[class|=wheelnav-piemenu-slice-hover] { fill: #00b7a4;  stroke: none; fill-opacity: 0.77; cursor: pointer; }
 
 [class|=wheelnav-piemenu-title-basic] { fill: #333; stroke: none; }
 [class|=wheelnav-piemenu-title-selected] { fill: #fff; stroke: none; }
 [class|=wheelnav-piemenu-title-hover] { fill: #222; stroke: none; cursor: pointer; }
+[class|=wheelnav-piemenu-title] > tspan { font-family: Impact, Charcoal, sans-serif; font-size: 24px; }
 
 .wheelnav-piemenu-spreader-in,
 .wheelnav-piemenu-spreader-out { fill: #444; stroke: #444; stroke-width: 2; cursor: pointer; }
 .wheelnav-piemenu-spreadertitle-in,
 .wheelnav-piemenu-spreadertitle-out { fill: #eee; stroke: #444; cursor: pointer; }
-
-
     </style>
 
     <script type="text/javascript">
@@ -126,12 +123,10 @@
 
             //This is the place for code snippets from the documentation -> http://wheelnavjs.softwaretailoring.net/documentation.html
 
-            wheel.createWheel(["Thank you", "for", "download", icon.fave]);
-            wheel.navigateWheel(2);
+            // wheel.createWheel(["Thank you", "for", "download", icon.fave]);
+            // wheel.navigateWheel(2);
 
             //Insert generated JavaScript code from here -> http://pmg.softwaretailoring.net
-
-
             var piemenu = new wheelnav('piemenu');
 piemenu.spreaderInTitle = icon.plus;
 piemenu.spreaderOutTitle = icon.cross;
@@ -139,37 +134,39 @@ piemenu.spreaderRadius = piemenu.wheelRadius * 0.34;
 piemenu.sliceInitPathFunction = piemenu.slicePathFunction;
 piemenu.initPercent = 0.1;
 piemenu.wheelRadius = piemenu.wheelRadius * 0.83;
-piemenu.navItemsContinuous = true;
-piemenu.sliceAngle = 36;
 piemenu.createWheel();
-piemenu.setTooltips(['check','image','checkbox','checked','star']);
-
-
         };
 
     </script>
 
 </head>
 <body>
+    <header>
+        <p>
+            Welcome by <a href="http://wheelnavjs.softwaretailoring.net" target="_blank">wheelnav.js</a>
+        </p>
+    </header>
 
     <div id="wheelDiv"></div>
 
     <!-- Insert generated HTML5 code from here -> http://pmg.softwaretailoring.net -->
-
-
-    <div id="piemenu" data-wheelnav
-    data-wheelnav-slicepath="DonutSlice"
-    data-wheelnav-spreader data-wheelnav-spreaderpath="PieSpreader"
-    data-wheelnav-rotateoff
-    data-wheelnav-navangle="-72"
-    data-wheelnav-titleheight="36"
+    <div id='piemenu' data-wheelnav
+    data-wheelnav-slicepath='DonutSlice'
+    data-wheelnav-spreader data-wheelnav-spreaderpath='PieSpreader'
+    data-wheelnav-navangle='180'
     data-wheelnav-cssmode 
     data-wheelnav-init>
-     <div data-wheelnav-navitemicon="check"></div>
-     <div data-wheelnav-navitemimg="http://pmg.softwaretailoring.net/img/pmg_favicon.png"></div>
-     <div data-wheelnav-navitemicon="checkbox" ></div>
-     <div data-wheelnav-navitemicon="checked"></div>
-     <div data-wheelnav-navitemicon="star"></div>
+     <div data-wheelnav-navitemtext='0'></div>
+     <div data-wheelnav-navitemtext='1'></div>
+     <div data-wheelnav-navitemtext='2'></div>
+     <div data-wheelnav-navitemtext='3'></div>
+     <div data-wheelnav-navitemtext='4'></div>
+     <div data-wheelnav-navitemtext='5'></div>
+     <div data-wheelnav-navitemtext='6'></div>
+     <div data-wheelnav-navitemtext='7'></div>
    </div>
+    <footer>
+        <p>&copy; 2014-2017 <a href="http://softwaretailoring.net" target="_blank">softwaretailoring.net</a></p>
+    </footer>
 </body>
 </html>
