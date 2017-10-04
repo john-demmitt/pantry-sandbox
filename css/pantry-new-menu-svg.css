@@ -144,15 +144,17 @@ pointer-events: auto;
 }
 
   .rsd {
-    grid-row: 4/19;
+    grid-row: 4/18;
     grid-column: 17/21;
-    display:flex;
+    display:grid;
     height: 100%;
     width:100%;
-    flex-flow: column;
-    justify-content: space-around;
+    justify-items:center;
     pointer-events: auto;
-    
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+    align-items:center;
   }
   
 a.dates {
@@ -172,20 +174,26 @@ color: rgba(255,255,255,0.9);
   grid-column:1/2;
   grid-row:1/3;
   text-align: center;
+  font-size:2.5rem;
+  padding:2px;
 }
 
 .dates h3 {
   grid-column:2/6;
   grid-row:1/2;
   text-align: center;
-  
+  font-size:1.5rem;
+    padding:2px;
+
 }
 
 .dates p {
   grid-column:2/6;
   grid-row:2/3;
   text-align: center;
-  
+    font-size:1.5rem;
+  padding:2px;
+
 }
 
 
