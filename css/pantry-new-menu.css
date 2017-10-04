@@ -98,6 +98,10 @@ pointer-events: auto;
 .ytd {
     font-size: 1.25em;
     text-align: center;
+    height:50%;
+    width:100%;
+    align-content: center;
+    position: relative;
   }
   
   .lt-menu {
