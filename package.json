@@ -1,7 +1,7 @@
 {
   "name": "pantry-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "pantry-sandbox",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,13 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "list-selectors": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-demmitt/pantry-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/john-demmitt/pantry-sandbox/issues"
+  },
+  "homepage": "https://github.com/john-demmitt/pantry-sandbox#readme"
 }
