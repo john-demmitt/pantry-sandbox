@@ -1,0 +1,49 @@
+{
+  "selectors": [
+    "*",
+    "*:before",
+    "*:after",
+    "a",
+    "a:active",
+    "a:hover",
+    "a:focus",
+    "body",
+    ".carousel",
+    ".carousel-caption",
+    ".carousel-inner",
+    ".carousel-inner > .active",
+    ".carousel-inner > .item",
+    ".carousel-inner > .item.active",
+    "html",
+    "img"
+  ],
+  "simpleSelectors": {
+    "all": [
+      "*",
+      "a",
+      ".active",
+      "body",
+      ".carousel",
+      ".carousel-caption",
+      ".carousel-inner",
+      "html",
+      "img",
+      ".item"
+    ],
+    "ids": [],
+    "classes": [
+      ".active",
+      ".carousel",
+      ".carousel-caption",
+      ".carousel-inner",
+      ".item"
+    ],
+    "attributes": [],
+    "types": [
+      "a",
+      "body",
+      "html",
+      "img"
+    ]
+  }
+}
