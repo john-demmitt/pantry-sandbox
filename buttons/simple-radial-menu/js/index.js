@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".trigger").click(function() {
+  $(".trigger").hover(function() {
     $(".menu").toggleClass("active"); 
   });
 });

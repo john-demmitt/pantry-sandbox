@@ -78,10 +78,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-.txt {
-    transition: all 0.5s ease-in-out;
-}
-
 .txt-shad-b {
     fill: #007a6c;
     transition: all 0.5s ease-in-out;
@@ -97,6 +93,13 @@
 .txt-services {
     fill: #ffffff;
     transition: all 0.5s ease-in-out;
+}
+
+#services-butn:hover {
+    -webkit-transform: scaleX(o.9), scaleY(o.9);
+    transform: scaleX(0.95) scaleY(0.95);
+    transition: all 0.5s ease-in-out;
+    pointer-events: visible;
 }
 
 #services-butn:hover .shade4b {
@@ -175,10 +178,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-#services-butn:hover .txt {
-    transition: all 0.5s ease-in-out;
-}
-
 #services-butn:hover .txt-shad-b {
     visibility: hidden;
     transition: all 0.5s ease-in-out;
@@ -187,23 +186,39 @@
 #services-butn:hover .txt-shad-a {
     transition: all 0.5s ease-in-out;
 }
-
-#services-butn:hover .txt-fore {
-    fill: url("#linearGradient2685");
-    transition: all 0.5s ease-in-out;
-}
-
-
 /*END SVG COLOR/HOVWE*/
-
-
-/*MENU BUTTONS ANIMATION*/
 
 .services-menu {
     position: relative;
     width: 100%;
     pointer-events: visible;
 }
+
+
+
+#services-butn {
+    width: 100%;
+    transform: scaleX(1) scaleY(1);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    transform-origin: center center;
+    pointer-events:visible ;
+}
+
+/* .services-menu #recti {
+    transform: scale(1);
+    display: none;
+    transition: all 0.5s ease-in-out;
+    fill: url("#linearGradient2213");
+}
+
+.services-menu:hover svg#recti {
+    display: inline;
+    transform: scale(20);
+    transition: all 0.5s ease-in-out;
+    fill: url("#linearGradient2095");
+} */
 
 .services-menu .butn .fa {
     position: absolute;
@@ -267,24 +282,7 @@
     line-height: 1;
 }
 
-#services-butn {
-    width: 100%;
-    transform: scaleX(1) scaleY(1);
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    display: inline-block;
-    transform-origin: center center;
-    pointer-events: visible;
-}
-
-#services-butn:hover {
-    -webkit-transform: scaleX(o.9), scaleY(o.9);
-    transform: scaleX(0.95) scaleY(0.95);
-    transition: all 0.5s ease-in-out;
-    pointer-events: visible;
-}
-
-.rotater {
+ .rotater {
     position: absolute;
     top: 0;
     left: 0;
@@ -297,7 +295,8 @@
 .rotater:nth-child(1) {
     -webkit-transform: rotate(348.5deg);
     transform: rotate(350deg);
-    transition-delay: 500ms;
+    transition-delay:500ms;
+    
 }
 
 .services-menu:hover .rotater:nth-child(1) .s-menu-item {
@@ -306,6 +305,7 @@
     /* z-index: 50; */
     transition-delay: 700ms;
     animation-name: pulse;
+    
 }
 
 .rotater:nth-child(2) {
@@ -340,15 +340,17 @@
 
 @keyframes pulse {
     from {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
     }
+  
     50% {
-        -webkit-transform: scale3d(1.05, 1.05, 1.05);
-        transform: scale3d(1.05, 1.05, 1.05);
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
     }
+  
     to {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
     }
-}
+  }
