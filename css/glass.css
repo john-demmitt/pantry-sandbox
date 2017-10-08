@@ -70,7 +70,7 @@
 .button {
     color: rgba(255, 255, 255, 0.8);
     text-shadow: 0px 1px #000;
-    font-size: 16px;
+    font-size: 1.5rem;
     text-decoration:none;
 
     padding: 0.5em 1.5em;
@@ -169,7 +169,7 @@ button:active.clear-a, button:active.red-a, button:active.green-a, button:active
   */
 }
 
-button:hover.clear-a {
+.menu.menact .button.clear-a {
     color: rgba(255, 255, 255, 0.99);
     text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.99), 0px 0px 4px rgba(255, 255, 255, 0.75);
     border-color: rgba(255, 255, 255, 0.4);
@@ -208,7 +208,7 @@ button:active.clear-a {
     background-color: rgba(255, 120, 120, 0.25);
 }
 
-button:hover.red-a {
+.menu.menact .button.red-a {
     color: rgba(255, 230, 230, 0.99);
     text-shadow: 0px 0px 2px rgba(255, 230, 230, 0.99), 0px 0px 4px rgba(255, 200, 200, 0.99);
     border-color: rgba(255, 120, 120, 0.4);
@@ -249,7 +249,7 @@ button:active.red-a {
     background-color: rgba(110,255,185,0.25);
 }
 
-button:hover.green-a {
+.menu.menact .button.green-a {
     color: rgba(220, 255, 240, 0.99);
     text-shadow: 0px 0px 2px rgba(220, 255, 240, 0.99), 0px 0px 4px rgba(180, 255, 220, 0.99);
     border-color: rgba(110, 255, 185, 0.4);
@@ -290,7 +290,7 @@ button:active.green-a {
     background-color: rgba(120, 200, 255, 0.25);
 }
 
-button:hover.blue-a {
+.menu.menact .button.blue-a {
     color: rgba(230, 240, 255, 0.99);
     text-shadow: 0px 0px 2px rgba(230, 240, 255, 0.99), 0px 0px 4px rgba(200, 230, 255, 0.99);
     border-color: rgba(120, 200, 255, 0.4);
@@ -336,7 +336,7 @@ button:active.blue-a {
     transition: none;
 }
 
-button:hover.clear-b {
+.menu.menact .button.clear-b {
     color: rgba(0, 0, 0, 1.0);
     text-shadow: none;
 
@@ -370,7 +370,7 @@ button:active.clear-b {
     0 0 10px 2px rgba(255, 255, 255, 0.75) inset !important;
 }
 
-button:hover.red-b {
+.menu.menact .button.red-b {
     text-shadow: 0px 0px 2px rgba(255, 160, 160, 0.99), 0px 0px 4px rgba(255, 130, 130, 0.99);
 
     border-color: rgba(0, 0, 0, 0.6);
@@ -404,7 +404,7 @@ button:active.red-b {
     0 0 10px 2px rgba(255, 120, 120, 0.75) inset !important;
 }
 
-button:hover.green-b {
+.menu.menact .button.green-b {
     text-shadow: 0px 0px 2px rgba(170, 255, 190, 0.99), 0px 0px 4px rgba(140, 255, 160, 0.99);
   
     border-color: rgba(0, 0, 0, 0.6);
@@ -438,7 +438,7 @@ button:active.green-b {
     0 0 10px 2px rgba(110, 255, 185, 0.75) inset !important;
 }
 
-button:hover.blue-b {
+.menu.menact .button.blue-b {
     text-shadow: 0px 0px 2px rgba(170, 200, 255, 0.99), 0px 0px 4px rgba(140, 170, 255, 0.99);
 
     border-color: rgba(0, 0, 0, 0.6);

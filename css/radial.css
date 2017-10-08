@@ -28,7 +28,7 @@ width: 100%;
 grid-row:3/4;
 /* display: inline-block; */
 }
-.menu .btn {
+.menu .btn-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,6 +37,7 @@ grid-row:3/4;
 /* display: inline-block; */
   border-radius: 50%;
   background: rgba(0, 0,0, 0.8);
+  
   opacity: 0;
   z-index: -10;
   cursor: pointer;
@@ -58,6 +59,8 @@ grid-row:3/4;
   transition-delay: 500ms;
   
 }
+
+
 .menu .btn:hover .fa {
   color: rgba(255, 255, 255, 0.7);
   transition-delay: 500ms;
@@ -71,7 +74,7 @@ grid-row:3/4;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  pointer-events: auto;
+  pointer-events: ;
   transition-delay: 500ms;
   border-radius: 0%;
 }
@@ -90,6 +93,7 @@ grid-row:3/4;
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
           transition-delay: 500ms;
+          pointer-events: none;
           
 }
 
@@ -100,7 +104,9 @@ grid-row:3/4;
   transition-delay: 500ms;
   
 }
-
+/* .menu.menact .rotator {
+  pointer-events: auto;
+} */
 .rotater:nth-child(1) {
   -webkit-transform: rotate(350deg);
           transform: rotate(350deg);
@@ -110,7 +116,7 @@ grid-row:3/4;
 
 .menu.menact .rotater:nth-child(1) .btn-icon {
   -webkit-transform: translateY(-10rem) rotate(-350deg);
-          transform: translateY(-10rem) rotate(-350deg);
+          transform: translateY(-13rem) rotate(-350deg);
           transition-delay: 500ms;
         }
 
@@ -123,7 +129,7 @@ grid-row:3/4;
 
 .menu.menact .rotater:nth-child(2) .btn-icon {
   -webkit-transform: translateY(-12rem) rotate(-290deg);
-          transform: translateY(-12rem) rotate(-290deg);
+          transform: translateY(-18rem) rotate(-290deg);
 }
 
 .rotater:nth-child(3) {
@@ -135,7 +141,7 @@ grid-row:3/4;
 
 .menu.menact .rotater:nth-child(3) .btn-icon {
   -webkit-transform: translateY(-10rem) rotate(-250deg);
-          transform: translateY(-10rem) rotate(-250deg);
+          transform: translateY(-16rem) rotate(-250deg);
 }
 
 .rotater:nth-child(4) {
@@ -147,7 +153,7 @@ grid-row:3/4;
 
 .menu.menact .rotater:nth-child(4) .btn-icon {
   -webkit-transform: translateY(-8rem) rotate(-190deg);
-          transform: translateY(-8rem) rotate(-190deg);
+          transform: translateY(-11rem) rotate(-190deg);
 }
 /* 
 .rotater:nth-child(5) {

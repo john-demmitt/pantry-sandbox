@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   viewBox="0 0 1 1"
+   preserveAspectRatio="none"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="button-pantry-blue-b.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1533"
+     inkscape:window-height="960"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="236"
+     inkscape:cx="-0.027542373"
+     inkscape:cy="0.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg9" />
+  <radialGradient
+     id="grad-ucgg-generated"
+     gradientUnits="userSpaceOnUse"
+     cx="50%"
+     cy="50%"
+     r="75%">
+    <stop
+       offset="0%"
+       stop-color="#78c8ff"
+       stop-opacity="1"
+       id="stop2"
+       style="stop-color:#33b7d2;stop-opacity:1" />
+    <stop
+       offset="100%"
+       stop-color="#78c8ff"
+       stop-opacity="0"
+       id="stop4"
+       style="stop-color:#99dbe8;stop-opacity:0" />
+  </radialGradient>
+  <rect
+     x="-50"
+     y="-50"
+     width="101"
+     height="101"
+     fill="url(#grad-ucgg-generated)"
+     id="rect7" />
+</svg>
